@@ -231,7 +231,7 @@ if model is not None and df is not None:
             st.markdown("### 📋 Cluster Description")
             st.markdown(f"""
                 <div class="cluster-info">
-                    <p><strong>{cluster_details['description']}</strong></p>
+                    <p "color:black"><strong>{cluster_details['description']}</strong></p>
                 </div>
             """, unsafe_allow_html=True)
             
