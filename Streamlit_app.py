@@ -58,7 +58,7 @@ st.markdown("""
 def load_model():
     """Load the trained Decision Tree model"""
     try:
-        model = joblib.load("knnhc_model.pkl")
+        model = joblib.load("knn_model.pkl")
         return model
     except FileNotFoundError:
         st.error("Model file not found. Please train the model first.")
